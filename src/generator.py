@@ -9,6 +9,7 @@ defaultLength = os.environ['defaultLength']
 letters = os.environ['letters']
 digits = os.environ['digits']
 punctuation = os.environ['punctuation']
+hexadecimal = os.environ['hexadecimal']
 
 length = int(sys.argv[1]) if len(sys.argv) > 1 else int(defaultLength)
 
@@ -24,6 +25,10 @@ combinations = [
     {
         'title': f"{length} characters - Letters + Digits",
         'combo': letters + digits
+    },
+    {
+        'title': f"{length} characters - Hexadecimal",
+        'combo': hexadecimal
     },
     {
         'title': f"{length} characters - Letters + Punctuation",

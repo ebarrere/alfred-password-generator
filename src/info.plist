@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.epilande.password-generator</string>
-	<key>category</key>
-	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>1C1236B0-F0F6-4EF7-BBDF-3B05247A4DBC</key>
@@ -170,13 +168,17 @@ Command:
 		<string>16</string>
 		<key>digits</key>
 		<string>0123456789</string>
+		<key>hexadecimal</key>
+		<string>0123456789abcdef</string>
 		<key>letters</key>
 		<string>abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
 		<key>punctuation</key>
 		<string>!"#$%&amp;'()*+,-./:;&lt;=&gt;?@[]^_{\|}~</string>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/epilande/alfred-password-generator</string>
 </dict>
